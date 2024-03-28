@@ -21,6 +21,7 @@ AI Assignments
   moves).	We	will	consider	the	Red	player	the	“Min”	player	and	represent	a win	for	
   Red	as	a	-1.	The	Yellow	player	is	the	“Max”	player	and	a	win	for	yellow	is	
   represented	by	a	1.	A	draw	has	a	value	of	0.
+  
   UR
   R
   OOOOOOO
@@ -29,18 +30,22 @@ AI Assignments
   OOROOOY
   OYRYOYR
   YRRYORR
+  
   Code runs on the command	line	and	takes	in	three parameters.	The	first	
   specifies	the	name	of	the	input	file	to	read.	The	second parameter	specifies	
   “Verbose”	“Brief”	or	“None”	which	control	what the algorithm	will	print	for	output.	
   The	last	parameter	is	specific	to	the	algorithm	(typically	this	will	be	the	number	of	
-  simulations	to	run).	
+  simulations	to	run).
+  
   python	test1.txt	Verbose 0
   python	test4.txt	Brief 500
+  
   Algorithm	1:	Uniform	Random	(UR)
   This	is	a	trivial	algorithm	used	for	basic	testing	and	benchmarking.	It	selects	a	legal	
   move	for	the	specified	player	using	the	uniform	random	strategy	(i.e.,	each	legal	
   move	is	selected	with	the	same	probability.	The last parameter	value	should	always	
   be	0	for	this	algorithm.
+  
   FINAL	Move	selected:	4	
   Algorithm	2:	Pure	Monte	Carlo	Game	Search	(PMCGS)
   This	algorithm	is	the	simplest	form	of	game	tree	search	based	on	randomized	
@@ -80,6 +85,7 @@ AI Assignments
   search	tree nodes,	only	the	wi	and	ni	values. You	can	keep	track	of	the	game	state	
   during	the	search	process	by	modifying	the	current	board	state	based	on	the	moves	
   that	are	made.
+  
   Part	II:	Algorithm	Tournaments	and	Evaluation
   The	second	part	builds	on	what	you	have	done	to	develop,	test,	and	debug	
   algorithms	in	part	I.	You	should	not	need	to	write	much	additional	code	for	this	part.	
