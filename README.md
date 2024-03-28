@@ -2,7 +2,7 @@ AI projects
 - Model to learn & decypher possible combinations of elements (in progress)
 
 AI Assignments
--Connect 4
+- Connect 4
 
   Objective:	To	implement	and	experiment	with	Monte	Carlo	Tree	Search as	a	
   method	for	planning/strategic	reasoning,	using	Connect	Four	as	a	sample	domain.	
