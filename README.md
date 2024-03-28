@@ -20,8 +20,8 @@ AI Assignments
   column	from	1-7	to	add	a	new	piece	to	(columns	that	are	already	full	are	illegal	
   moves).	We	will	consider	the	Red	player	the	“Min”	player	and	represent	a win	for	
   Red	as	a	-1.	The	Yellow	player	is	the	“Max”	player	and	a	win	for	yellow	is	
-  represented	by	a	1.	A	draw	has	a	value	of	0.	
-  UR	
+  represented	by	a	1.	A	draw	has	a	value	of	0.
+  UR
   R
   OOOOOOO
   OOOOOOO
