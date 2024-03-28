@@ -23,12 +23,19 @@ AI Assignments
   represented	by	a	1.	A	draw	has	a	value	of	0.
   
   UR
+  
   R
+  
   OOOOOOO
+  
   OOOOOOO
+  
   OOYOOOY
+  
   OOROOOY
+  
   OYRYOYR
+  
   YRRYORR
   
   Code runs on the command	line	and	takes	in	three parameters.	The	first	
