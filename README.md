@@ -3,6 +3,7 @@ AI projects
 
 AI Assignments
 -Connect 4
+
   Objective:	To	implement	and	experiment	with	Monte	Carlo	Tree	Search as	a	
   method	for	planning/strategic	reasoning,	using	Connect	Four	as	a	sample	domain.	
   AI	Agents	for	Game	Playing	
